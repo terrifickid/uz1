@@ -5,5 +5,6 @@ import store from "./store";
 
 import "./assets/reg/stylesheet.css";
 import "./assets/mono/stylesheet.css";
+import "./assets/tailwind.css";
 
 createApp(App).use(store).use(router).mount("#app");
